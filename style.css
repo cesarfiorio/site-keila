@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+@font-face {
+    font-family: 'Satisfy';
+    src: url('../fonte/Satisfy-Regular.ttf') format('opentype');
+    
+}
+
+:root{
+    --cor1: #E8100C;
+    --cor2: #F20C70;
+    --cor3: #DB00CC;
+    --cor4: #BC0CF2;
+    --cor5: #780CE8;
+
+    
+    --font1: 'Satisfy', cursive;
+    --font2:'Sriracha', cursive;
+}
+/*fonte 1 e a normal font2 e a destaque e fonte 3 e para texto*/
+*{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+
+header{
+    background-image:linear-gradient( #BC0CF2,#bc0cf28e , #BC0CF2);
+    font-family: var(--font2);
+    text-align: center;
+    padding: 10px;
+}
+
+h2{
+    padding: 2px;
+    height: 30px;
+    width: 560px;
+    background-position: center;
+    transform: translate(55%, 50%);
+    background-color:green;
+    border-radius: 12px;
+    text-align: center;
+}
+h2:hover{
+    background-color: white ;
+}

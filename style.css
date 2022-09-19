@@ -38,13 +38,55 @@ header{
 h2{
     padding: 2px;
     height: 30px;
-    width: 560px;
+    width: 600px;
     background-position: center;
     transform: translate(55%, 50%);
-    background-color:green;
     border-radius: 12px;
     text-align: center;
+    font-family: var(--font1);
 }
 h2:hover{
     background-color: white ;
 }
+
+
+#q1 > p {
+    font-family: var(--font1);
+    padding: 10px;
+    max-width: 450px;
+    max-height: 700px;
+    text-align: justify;
+    text-decoration: none;
+    background-color: #db00cc62;
+    background-position: center;
+    
+ 
+
+}
+section#q1{
+    background-image: url('../site-keila/fotos/keila-branca.jpeg');
+    background-position: trans;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    background-image: 400px; 
+
+}
+
+#q3{
+    font-family: var(--font1);
+    padding: 10px;
+    border-left: 50px;
+
+}
+section#q4{
+    background-image: url('../site-keila/fotos/amanda-olhos.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 400px;
+    
+}
+
+    
+    
